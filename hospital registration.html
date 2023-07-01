@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital registration</title>
+</head>
+<body>
+    <h1 align="center"><ins> NEW YORK-PRESBYTERIAN HOSPITAL REGISTRATION FORM</ins></h1>
+    <form action="">
+        <div>
+            <label for="">Referring Facility :</label>
+            <input type="text" name="referring">
+            <label for="">phone :</label>
+            <input type="text" name="phone">
+            <label for="fax1">Fax :</label>
+            <input type="text" name="fax" id="fax1">
+            <label for="cperson">Contact Person :</label>
+            <input type="text" name="person" id="cperson">
+        </div><br><br>
+        <h3 align="center">Please print information</h3>
+        <div>
+            <label for="req date">Date of request :</label>
+            <input type="date" name="dateofrequest" id="req date">
+            <label for="cpmc">Patiest CPMC medical record Number :</label>
+            <input type="number" name="medical" id="cpmc" required>
+        </div><br>
+        <div>
+            <label for="pname">Patient Name :</label>
+            <input type="text" name="patient name" id="pname">
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dateofbirth" id="dob">
+        </div><br>
+        <div>
+            <label for="">Male :</label>
+            <input type="checkbox" name="genedr" value="male">
+            <label for="">Female :</label>
+            <input type="checkbox" name="genedr" value="female">
+            <label for="ssecurity">Social Security :</label>
+            <input type="text" name="social security" id="ssecrity">
+            <label for="">Married :</label>
+            <input type="checkbox" name="married" value="married">
+            <label for="">Single :</label>
+            <input type="checkbox" name="single" value="single">
+            <label for="">Widowed :</label>
+            <input type="checkbox" name="widowed" value="widowed">
+            <label for="">Divorced :</label>
+            <input type="checkbox" name="divorced" value="divorced"> 
+        </div><br>
+        <div>
+            <label for="adres">Address :</label>
+            <input type="text" name="address" id="adres">
+        </div><br><br>
+        <div>
+            <label for="cnumber">Home/Cell number :</label>
+            <input type="number" name="homenumber" id="cnumber">
+            <label for="con number">Other contact Number :</label>
+            <input type="number" name="contact number" id="con number">
+        </div><br>
+        <div>
+            <label for="mname">Mother's First Name :</label>
+            <input type="text" name="mother name" id="mname">
+            <label for="fname">Father's First Name :</label>
+            <input type="text" name="father name" id="fname">
+        </div><br>
+        <div>
+            <label for="insur paln">Insurance Plan :</label>
+            <input type="text" name="insurance plan" id="insur plan">
+            <label for="plan id">Plan ID/Group Number :</label>
+            <input type="number" name="group number" id="plan id">
+        </div><br>
+        <div>
+            <label for="cin number">Medicaid CIN Number :</label>
+            <input type="number" name="medicaid number" id="cin number">
+            <label for="mnumber">Medicare Number :</label>
+            <input type="number" name="medicare number" id="mnumber">
+        </div><br>
+        <div>
+            <label for="hmo no">is the patient on an HMO plan? NO :</label>
+            <input type="number" name="hmo plan " id="hmo no">
+            <label for="">Yes(Plan name)</label>
+            <input type="text" name="plan name">
+        </div><br><br>
+        <div>
+            <label for="pname">Referring Physician Name :</label>
+            <input type="text" name="Physician name" id="pname">
+            <label for="upin">UPIN (for diagnestic services) :</label>
+            <input type="text" name="service" id="upin">
+        </div><br>
+        <div>
+            <label for="">Clinic Referred</label>
+            <input type="text" name="clinic referring">
+            <label for="">Disgnesis :</label>
+            <input type="text" name="disgnesis">
+            <label for="">ICD9 Code :</label>
+            <input type="number" name="icd9 code ">
+        </div><br>
+        <div>
+            <label for="">Request to rule out /evaluate patient for :</label>
+            <input type="text" name="request">
+        </div><br>
+        <div>
+            <label for="">Time frame physieian is seeking for appoinment :</label>
+            <input type="text" name="appoinment">
+        </div><br>
+        <h4>Additional information :(attach reports/lab results,medications taken/exams done/history etc, pertinent to patient care) :</h4>
+        <div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div><br><br>
+        <div>
+            <label for="">patient appoinment day/time preference :(we will try to schedule if clinic is available</label>
+            <input type="date" name="appoinment">
+        </div><br>
+        <div>
+            <input type="submit" name="submit">
+        </div>
+    </form>
+    <a href="index.html">menu page</a>
+</body>
+</html>
